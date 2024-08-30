@@ -6,3 +6,22 @@
 .font-inter{
     font-family: "Inter", sans-serif;
 }
+
+.seat {
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.seat.selected {
+    background-color: #1dd100; /* Green color for selected seats */
+    border-color: #1dd100; /* Darker green border */
+    color: white; /* Text color for selected seats */
+}
+.seat:hover {
+    background-color: #C8E6C9; /* Light green color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.vl {
+    height: 500px;
+    border-left: 2px dashed #03071233;
+  }
